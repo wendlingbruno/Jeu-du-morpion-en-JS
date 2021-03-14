@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+
+
+table{
+    margin: 0 auto;
+    border-collapse:collapse; /* pour enlever le petit espacement entre les cases */
+}
+
+tr td:empty{
+    font-size: 0em;
+}
+
+tr td{ /* taille des cases */
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 4em;
+    transition : font-size 0.2s;
+    background-color: rgb(192, 192, 192);
+}
+
+
+.caseRempliX{
+    color: rgb(26, 102, 201);
+}
+
+.caseRempliO{
+    color: rgb(233, 41, 41);
+}
+
+.fa-times{
+    color: rgb(26, 102, 201);
+}
+
+.fa-circle{
+    color: rgb(233, 41, 41);
+}
+
+#boutonJeu{
+    margin: auto;
+    background-color: rgb(253, 131, 16);
+}
+
+.invisible{
+    display: none;
+}
